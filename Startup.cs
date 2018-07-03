@@ -58,11 +58,11 @@ namespace FreeAds
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            // app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
 
-            app.UseAuthentication();
+            // app.UseAuthentication();
 
             app.UseMvc(routes =>
             {
