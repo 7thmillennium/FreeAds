@@ -4,20 +4,22 @@
 
 # update db settings
 
->>> add nuget entity postgresql 
+### add nuget entity postgresql 
 
->>> add settings for connection of db
+### add settings for connection of db
 
 
 file: /home/looper/netcore/FreeAds/appsettings.json
 
+<small>
 ```
   "ConnectionStrings": {
    "DefaultConnection":"Host=localhost;Database=freeads;Username=admin;Password=admin"
   },
 ```
+<small>
 
->> update ef db
+### update ef db
 
 `sudo dotnet ef database update`
 
